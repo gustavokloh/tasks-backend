@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Create a postgres user, with project credentials:
+
+```
+createuser -sW tasksbackend -h localhost      # Enter the password: tasksbackend
+```
